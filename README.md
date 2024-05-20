@@ -40,7 +40,7 @@ The project follows a structured organization, with key components and functiona
 
 - **pages**: Includes top-level components representing different pages of the application, such as `LoginPage`, `RegisterPage`, `MainPage` and `PageNotFound`.
 
-- **services**: Includes API services for fetching country data, geocoding information and authentication operations.
+- **services**: Includes `API` services for fetching country data, geocoding information and authentication operations.
 
 - **ui**: Holds reusable `UI` components like `Button`, `Form`, `FormGroup`, `Row` and more, styled using `styled-components` for consistent design and styling.
 
