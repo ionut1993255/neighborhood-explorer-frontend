@@ -56,6 +56,6 @@ Additionally, the project utilizes `React Hot Toast` for displaying toast notifi
 2. Navigate into the project directory using the command `cd your-project-folder`.
 3. Install dependencies using `yarn install`.
 4. Run the development server using `yarn start`.
-5. Open your browser and navigate to [http://localhost:3000] to view the application.
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
 Upon first access, users are redirected to the login page. After registering, users are redirected back to the login page. Unauthorized attempts to access routes result in a page not found message. Accessing the `/app` route redirects users to the login page. Enjoy exploring the `Neighborhood Explorer`!
