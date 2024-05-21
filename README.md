@@ -2,6 +2,14 @@
 
 Welcome to `Neighborhood Explorer`, an interactive application designed to help you explore countries and territories around the world. This project combines `styled-components`, `React Router DOM`, custom hooks, authentication and other features to provide a seamless user experience for discovering detailed information about different countries.
 
+## Installation Guide
+
+1. Install the backend by following the instructions at <a href="https://github.com/ionut1993255/neighborhood-explorer-backend">`Neighborhood Explorer API`</a>.
+2. Start the backend server according to its documentation.
+3. Install frontend dependencies using `yarn install`.
+4. Run the frontend development server using `yarn start`.
+5. Open your browser and navigate to <a href="http://localhost:3000">`http://localhost:3000`</a> to view the application.
+
 ## Key Features
 
 - **Dynamic Exploration**: Discover detailed information about each country, including its location, population, language and currency.
@@ -28,6 +36,10 @@ Welcome to `Neighborhood Explorer`, an interactive application designed to help 
 
 - **Reusable UI Components**: Utilize a variety of reusable `UI` components like `Button`, `Form`, `FormGroup`, `Row` and more, designed for enhanced code reusability and maintainability.
 
+- **Toast Notifications**: Display user-friendly notifications using `React Hot Toast`.
+
+- **Routing Management**: Manage application routing efficiently using `React Router DOM`.
+
 ## Project Structure
 
 The project follows a structured organization, with key components and functionalities organized into separate folders:
@@ -47,15 +59,5 @@ The project follows a structured organization, with key components and functiona
 - **utils**: Contains `constants.js` for storing `API` URLs, `helpers.js` for utility functions and other helper files for better code organization.
 
 - **public/images**: Contains the project logo.
-
-Additionally, the project utilizes `React Hot Toast` for displaying toast notifications and `React Router DOM` for managing application routing.
-
-## How to Use
-
-1. Clone the `neighborhood-explorer-frontend` repository to your local machine.
-2. Navigate into the project directory using the command `cd your-project-folder`.
-3. Install dependencies using `yarn install`.
-4. Run the development server using `yarn start`.
-5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
 Upon first access, users are redirected to the login page. After registering, users are redirected back to the login page. Unauthorized attempts to access routes result in a page not found message. Accessing the `/app` route redirects users to the login page. Enjoy exploring the `Neighborhood Explorer`!
